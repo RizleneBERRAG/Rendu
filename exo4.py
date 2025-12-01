@@ -4,9 +4,9 @@ nb_lettres = 0
 nb_chiffres = 0
 
 for char in chaine:
-    if char.isalpha():     # si c'est une lettre
+    if char.isalpha():     
         nb_lettres += 1
-    elif char.isdigit():   # si c'est un chiffre
+    elif char.isdigit(): 
         nb_chiffres += 1
 
 print("Lettres", nb_lettres)
